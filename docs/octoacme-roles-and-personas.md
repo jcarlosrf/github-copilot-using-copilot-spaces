@@ -75,6 +75,65 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Business Analysts or Requirements Leads
+
+### Role Summary
+Business Analysts or Requirements Leads elicit, analyze, and maintain requirements, connecting user and stakeholder needs to product priorities and testable delivery criteria.
+
+### Responsibilities
+- Elicit and document business, user, and system requirements
+- Maintain requirement traceability as scope and priorities change
+- Clarify assumptions, constraints, dependencies, and requirement gaps
+- Work with Developers and QA/Testing to make requirements testable and define acceptance criteria
+- Coordinate with UX/UI Designers or User Researchers on user needs and experience requirements
+
+### Goals
+- Ensure the team shares a clear understanding of the problem and expected outcomes
+- Reduce missed requirements, ambiguity, and avoidable rework
+- Keep requirements aligned with approved scope and product priorities
+
+### Typical Communication
+- Requirements and discovery workshops
+- Refinement sessions and acceptance-criteria discussions
+- Requirement updates, traceability records, and decision logs
+
+### Interaction with Existing Roles
+- Partners with Product Managers to connect stakeholder needs and requirements to product outcomes and priorities
+- Works with Project Managers to clarify scope, dependencies, and changes that affect plans
+- Collaborates with UX/UI Designers or User Researchers on user needs and experience requirements
+- Coordinates with Developers and QA/Testing to confirm feasibility, testability, and acceptance criteria
+
+---
+
+## Data or Analytics Leads
+
+### Role Summary
+Data or Analytics Leads define how teams will measure product outcomes and ensure the data needed to evaluate those outcomes is collected and trustworthy.
+
+### Responsibilities
+- Translate agreed success metrics into an instrumentation and measurement plan
+- Define event tracking, data quality expectations, dashboards, and reporting needs
+- Coordinate implementation of instrumentation and validate the resulting data
+- Review post-release measurements and communicate findings and limitations
+
+### Goals
+- Make product outcomes measurable and interpretable
+- Identify data quality or instrumentation gaps before they undermine evaluation
+- Help teams use evidence to inform product decisions and improvements
+
+### Typical Communication
+- Metric-definition and instrumentation planning
+- Data validation and dashboard reviews
+- Post-release outcome readouts and recommendations
+
+### Interaction with Existing Roles
+- Aligns with Product Managers on success metrics, outcome definitions, and how findings inform priorities
+- Works with Developers to plan and implement instrumentation
+- Partners with QA/Testing to validate event behavior, data quality, and reporting
+- Shares measurement needs and post-release findings with Project Managers and stakeholders to inform planning and decisions
+
+---
+
 ## UX/UI Designers or User Researchers
 
 ### Role Summary
@@ -165,6 +224,35 @@ Delivery or Release Managers coordinate readiness and operational flow from deve
 
 ---
 
+## Change Management or Training Leads
+
+### Role Summary
+Change Management or Training Leads prepare affected users and teams to adopt a change through timely communications, training, and enablement.
+
+### Responsibilities
+- Assess who is affected by a change and what support they will need
+- Prepare training, enablement materials, and adoption communications
+- Coordinate communications and enablement timing with launch plans
+- Gather adoption feedback and identify follow-up support or training needs
+
+### Goals
+- Help affected users understand and adopt changes
+- Ensure support teams are prepared to respond to questions and issues
+- Reduce disruption and confusion during rollout
+
+### Typical Communication
+- Change-impact and stakeholder-readiness discussions
+- Training sessions, release communications, and enablement materials
+- Adoption feedback and follow-up readiness updates
+
+### Interaction with Existing Roles
+- Coordinates timing, stakeholder communications, and dependencies with Project Managers and Delivery or Release Managers
+- Aligns messaging and expected user outcomes with Product Managers
+- Prepares Customer Support or Operations Representatives with training, documentation, and escalation guidance
+- Shares adoption feedback and readiness gaps with the project team to inform follow-up work
+
+---
+
 ## Security or Privacy Leads
 
 ### Role Summary
@@ -228,6 +316,10 @@ Customer Support or Operations Representatives bring customer-facing and service
 
 These personas describe responsibilities, not necessarily separate positions. Depending on project size and context, one person may cover multiple roles. Teams should make ownership and handoffs explicit during planning, especially where responsibilities overlap.
 
+- During planning, assign a clear owner for requirements, success metrics and instrumentation, and change readiness or training; agree on the artifacts, decision points, and handoffs each owner will provide.
+- Business Analyst or Requirements Lead, Product Manager, Developers, and QA/Testing: connect stakeholder needs and product priorities to traceable requirements and testable acceptance criteria.
+- Data or Analytics Lead, Product Manager, Developers, and QA/Testing: turn success metrics into instrumentation and validate measurement so post-release outcomes can be assessed.
+- Change Management or Training Lead, Project Manager, Product Manager, Delivery or Release Manager, and Customer Support or Operations Representative: coordinate change communications, enablement, launch timing, and support handoff.
 - Product Manager and UX/UI Designer or User Researcher: connect customer needs, product outcomes, and experience quality
 - Project Manager and Delivery or Release Manager: coordinate plans, dependencies, delivery status, and release readiness
 - Developers and Technical Lead or Architect: design, build, and validate solutions with appropriate technical guidance
@@ -239,4 +331,4 @@ These personas describe responsibilities, not necessarily separate positions. De
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-- For small teams, multiple responsibilities may be combined in a single person without changing the intent of the role model.
+- For small teams, multiple responsibilities may be combined in a single person without changing the intent of the role model; make the named owner for each responsibility explicit during planning.
